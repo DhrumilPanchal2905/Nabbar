@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: ColfaxAI, Helvetica, sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(89.54deg, #d09e47 3.61%, #f6e164 245.07%);
+  position: absolute;
+  width: 100vw;
+  height: 130px;
+  left: 0px;
+  align-items: center;
+}
+
+#topbar {
+  display: flex;
+}
+
+#logout-btn {
+  margin-right: 30px;
+}
+
+button {
+  /* padding: 10px 40px; */
+  padding: 0.7em 1.4em 0.6em;
+  border-radius: 3em;
+  border: 0px;
+  outline: none;
+  background-color: rgb(49, 49, 49);
+  color: #ffffff;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+img {
+  height: 130px;
+}
+
+.link-logo {
+  position: absolute;
+  top: 0px;
+  left: 30px;
+}
+
+#link-item-wrapper {
+  margin: 0px auto;
+}
+
+.link-item {
+  margin: 0px 15px;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: white;
+}
+
+.seleted-link {
+  color: rgb(49, 49, 49);
+}
+
+@media screen and (max-width: 800px) {
+  .link-item {
+    margin: 0px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    margin-top: 10px;
+  }
+}
